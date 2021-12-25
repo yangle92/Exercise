@@ -63,5 +63,6 @@ def Get_Articel(result):
 
 if __name__ == '__main__':
     result = Get_csdn()
+    print(type(result))
     Mysql_handle(result)
     Get_Articel(result)
